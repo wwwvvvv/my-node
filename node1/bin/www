@@ -90,8 +90,8 @@ function onListening() {
   debug('Listening on ' + bind);
   console.log(`Listening on port: ${port}`);
   console.log('waiting ...');
-    (async () => {
-        console.log('show in explorer!');
-      await open(`http://localhost:${port}`);
-    })();
+    // (async () => {
+    //     console.log('show in explorer!');
+    //   await open(`http://localhost:${port}`);
+    // })();
 }
